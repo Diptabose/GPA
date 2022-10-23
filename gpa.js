@@ -11,14 +11,14 @@ button.addEventListener("click",()=>{
         resText.innerText='Enter your grades properly!!!';
        }
       else{
-       resText.innerText='Your 3-1 GPA is '+res;
+       resText.innerText='Your 3-2 GPA is '+res;
       }
  });
 
 grades.addEventListener('input',()=>{
   if(grades.value.length===1)
   {
-    resText.innerText="Your 3-1 GPA is ---"
+    resText.innerText="Your 3-2 GPA is ---"
   }
  
 });
